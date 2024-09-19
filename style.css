@@ -30,12 +30,14 @@ nav {
     color: #2e2e2e;
 }
 
-main {
+/* main {
 
-}
+} */
 
-img {
-    
+.zdj {
+    width: 270px;
+    border-radius: 10%;
+    border: 4px solid #636363;
 }
 
 .naglowek {
@@ -72,4 +74,45 @@ footer {
     margin-top: 30px;
     margin-bottom: 30px;
     padding-bottom: 18px;
+}
+
+.artykuly {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #afafaf;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    padding-left: 0.3%;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+}
+
+article {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.ilosc {
+    width: 50px;
+    background-color: rgb(161, 236, 255);
+}
+
+.dol {
+    border: 2px #636363 dashed;
+    border-radius: 10%;
+    padding-bottom: 14px;
+}
+
+.bkontakt {
+    padding-bottom: 14.4%;
+}
+
+.bonas {
+    padding-bottom: 14.2%;
+}
+
+.opis {
+    margin-left: 10%;
+    margin-right: 10%;
 }

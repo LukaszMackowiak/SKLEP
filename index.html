@@ -8,6 +8,7 @@
     <title>Sklep z kafelkami</title>
 </head>
 <body>
+    <script src="main.js" defer></script>
     <header>
         <h1>SKLEP</h1>
         <h3>Z KAFELKAMI</h3>
@@ -15,23 +16,74 @@
     <nav>
 <a href="index.html">SKLEP</a>
 |
-<a href="index.html">O NAS</a>
+<a href="onas.html">O NAS</a>
 |
-<a href="index.html">KONTAKT</a>
+<a href="kontakt.html">KONTAKT</a>
     </nav>
     <main>
         <div class="naglowek">
             <h2>DOKONAJ WYBORU</h2>
+            <p>Podaj ilość</p>
         </div>
 
-        <!-- <div class="artykuly">
+        <div class="artykuly">
             <article>
                 <h4>Wzór 1</h4>
-                <img src="k1.jpg" alt="wzór 1"/>
-                <p>Cena za metr kwadratowy:</p>
-                <h5>58 zł</h5>
+                <img class="zdj" src="k1.jpg" alt="wzór 1"/>
+                <div class="dol">
+                    <p>Cena za metr kwadratowy:</p>
+                    <form>
+                        <label for="wzor1"><h5>58 zł </h5>
+                            <input class="ilosc" type="number" name="wzor1" id="wzor1" min="0" value="0"/></label>
+                </div>
+                </form>
             </article>
-        </div> -->
+            <article>
+                <h4>Wzór 2</h4>
+                <img class="zdj" src="k2.jpg" alt="wzór 2"/>
+                <div class="dol">
+                    <p>Cena za metr kwadratowy:</p>
+                    <label for="wzor2"><h5>56 zł </h5>
+                        <input class="ilosc" type="number" name="wzor2" id="wzor2" min="0" value="0"/></label>
+                </div>
+            </article>
+            <article>
+                <h4>Wzór 3</h4>
+                <img class="zdj" src="k3.jpg" alt="wzór 3"/>
+                <div class="dol">
+                    <p>Cena za metr kwadratowy:</p>
+                    <label for="wzor3"><h5>60 zł </h5>
+                        <input class="ilosc" type="number" name="wzor3" id="wzor3" min="0" value="0"/></label>
+                </div>
+            </article>
+            <article>
+                <h4>Wzór 4</h4>
+                <img class="zdj" src="k4.jpg" alt="wzór 4"/>
+                <div class="dol">
+                    <p>Cena za metr kwadratowy:</p>
+                    <label for="wzor4"><h5>58 zł </h5>
+                        <input class="ilosc" type="number" name="wzor4" id="wzor4" min="0" value="0"/></label>
+                </div>
+            </article>
+            <article>
+                <h4>Wzór 5</h4>
+                <img class="zdj" src="k5.jpg" alt="wzór 5"/>
+                <div class="dol">
+                    <p>Cena za metr kwadratowy:</p>
+                    <label for="wzor5"><h5>65 zł </h5>
+                        <input class="ilosc" type="number" name="wzor5" id="wzor5" min="0" value="0"/></label>
+                </div>
+            </article>
+            <article>
+                <h4>Wzór 6</h4>
+                <img class="zdj" src="k6.jpg" alt="wzór 6"/>
+                <div class="dol">
+                    <p>Cena za metr kwadratowy:</p>
+                <label for="wzor6"><h5>59 zł </h5>
+                    <input class="ilosc" type="number" name="wzor6" id="wzor6" min="0" value="0"/></label>
+                </div>
+            </article>
+        </div>
 
         <div class="koszyk">
             Twój koszyk:
